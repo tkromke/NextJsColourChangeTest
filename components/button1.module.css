@@ -1,11 +1,16 @@
 .yourBusinessEmail {
-  align-self: stretch;
+  width: 154px;
+  height: 26px;
   position: relative;
   line-height: 26px;
+  display: flex;
   font-weight: 700;
+  align-items: flex-end;
+  justify-content: center;
 }
 .yourBusinessEmailWrapper {
-  width: 156px;
+  height: 38px;
+  width: 154px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -13,41 +18,56 @@
   padding: var(--padding-xs) 0 0;
   box-sizing: border-box;
 }
-.button1 {
-  height: 50px;
-  width: 150px;
-  z-index: 1;
+.getStarted {
+  height: 20px;
+  width: 89px;
+  position: relative;
+  font-size: var(--font-size-base);
+  line-height: 20px;
+  display: flex;
+  font-weight: 700;
+  font-family: var(--font-chivo);
+  color: var(--white);
+  text-align: center;
+  align-items: flex-end;
+  justify-content: center;
 }
 .box,
-.button {
+.button,
+.button1 {
   border-radius: var(--br-7xs);
   display: flex;
   flex-direction: row;
   align-items: flex-start;
-  max-width: 100%;
+  justify-content: flex-start;
+}
+.button1 {
+  background-color: var(--purple-purple);
+  padding: var(--padding-mini) var(--padding-11xl);
+  white-space: nowrap;
+  z-index: 1;
+}
+.button1:hover {
+  background-color: var(--color-mediumslateblue-100);
+}
+.box,
+.button {
+  width: 480px;
 }
 .box {
-  flex: 1;
   background-color: var(--white);
   border: 1px solid var(--greyscale-grey-pale);
   box-sizing: border-box;
-  justify-content: space-between;
-  padding: var(--padding-5xs) var(--padding-4xs) var(--padding-5xs)
-    var(--padding-4xl);
-  gap: var(--gap-xl);
+  padding: var(--padding-5xs) var(--padding-5xs) var(--padding-5xs)
+    var(--padding-5xl);
+  gap: var(--gap-125xl);
 }
 .button {
-  align-self: stretch;
+  height: 66px;
   background-color: var(--color-gray-200);
-  justify-content: flex-start;
   z-index: 1;
   text-align: center;
   font-size: var(--font-size-base);
   color: var(--greyscale-grey-pale);
   font-family: var(--font-chivo);
-}
-@media screen and (max-width: 450px) {
-  .box {
-    flex-wrap: wrap;
-  }
 }

@@ -14,21 +14,23 @@
   z-index: 1;
 }
 .illustrationsChild {
-  align-self: stretch;
-  height: 129px;
+  width: 248px;
   position: relative;
   border-radius: var(--br-7xs);
   background-color: var(--white);
   box-shadow: var(--card-shadow-1);
+  height: 129px;
   display: none;
   z-index: 0;
 }
 .instagram {
+  height: 23.8px;
+  width: 92px;
   position: relative;
   line-height: 24px;
   display: inline-block;
   font-weight: 700;
-  min-width: 93px;
+  flex-shrink: 0;
   z-index: 2;
 }
 .frameChild,
@@ -56,25 +58,29 @@
 }
 .vectorParent {
   height: 100%;
-  width: calc(100% - 20px);
+  width: 100%;
   position: absolute;
   margin: 0 !important;
   top: 0;
-  right: 20px;
+  right: 0;
   bottom: 0;
   left: 0;
 }
 .instagramParent {
+  width: 228px;
+  height: 59.5px;
   display: flex;
   flex-direction: row;
   align-items: flex-start;
   justify-content: flex-start;
-  padding: var(--padding-base-9) var(--padding-61xl) var(--padding-lgi-8)
-    var(--padding-56xl);
+  padding: var(--padding-base-9) var(--padding-41xl) var(--padding-lgi-8)
+    var(--padding-57xl);
+  box-sizing: border-box;
   position: relative;
 }
 .socialDivider {
   width: 28.8px;
+  height: 19.8px;
   position: absolute;
   margin: 0 !important;
   top: 43.2px;
@@ -85,25 +91,28 @@
   font-weight: 700;
   z-index: 2;
 }
-.frameItem {
+.frameItem,
+.illustrationsInner {
   height: 1px;
-  flex: 1;
+  box-sizing: border-box;
+}
+.frameItem {
+  width: 201px;
   position: relative;
   border-top: 1px solid var(--greyscale-grey-pale);
-  box-sizing: border-box;
   z-index: 1;
 }
 .illustrationsInner {
-  align-self: stretch;
+  width: 220px;
   display: flex;
   flex-direction: row;
   align-items: flex-start;
   justify-content: flex-start;
-  padding: 0 var(--padding-8xl) 0 var(--padding-xl);
+  padding: 0 0 0 var(--padding-xl);
 }
 .socialIconPlaceholders,
 .socialIconPlaceholders1 {
-  align-self: stretch;
+  width: 86px;
   height: 6px;
   position: relative;
   border-radius: var(--br-3xs);
@@ -112,19 +121,20 @@
 }
 .frameDiv,
 .socialIconPlaceholdersParent {
+  height: 19.9px;
   display: flex;
   align-items: flex-start;
   justify-content: flex-start;
 }
 .socialIconPlaceholdersParent {
-  flex: 1;
+  width: 86px;
   flex-direction: column;
   gap: var(--gap-5xs-9);
 }
 .frameDiv {
-  width: 126px;
+  width: 106px;
   flex-direction: row;
-  padding: 0 var(--padding-xl);
+  padding: 0 0 0 var(--padding-xl);
   box-sizing: border-box;
 }
 .footerBackground {
@@ -146,6 +156,7 @@
 }
 .illustrations {
   width: 248px;
+  height: 130px;
   margin: 0 !important;
   position: absolute;
   bottom: 174px;
@@ -162,8 +173,8 @@
 }
 .illustrationsItem {
   width: 300px;
-  height: 204px;
   position: relative;
+  height: 204px;
   display: none;
 }
 .chartLabelItems,
@@ -172,11 +183,12 @@
 .k1,
 .k2,
 .k3 {
+  width: 97px;
+  height: 18px;
   position: relative;
   line-height: 18px;
   display: inline-block;
   font-weight: 700;
-  min-width: 99px;
   z-index: 1;
 }
 .chartLabelItems,
@@ -184,13 +196,16 @@
 .k1,
 .k2,
 .k3 {
+  width: 18px;
+  height: 12px;
   line-height: 120%;
-  min-width: 18px;
 }
 .chartLabelItems {
-  min-width: 7px;
+  width: 7px;
 }
 .kParent {
+  height: 120px;
+  width: 18px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -215,29 +230,32 @@
   left: -93px;
 }
 .fillPropertyChild {
-  height: 33px;
   width: 70px;
   position: relative;
   border-radius: var(--br-9xs);
   background-color: var(--purple-purple-pale);
+  height: 33px;
   display: none;
 }
 .k4,
 .visitor {
+  width: 21.5px;
+  height: 13px;
   position: relative;
   line-height: 110%;
   display: inline-block;
   font-weight: 700;
-  min-width: 22px;
   z-index: 5;
 }
 .visitor {
+  width: 25.2px;
+  height: 9px;
   font-size: var(--font-size-5xs);
-  line-height: 9px;
   color: var(--color-gray-100);
-  min-width: 25.2px;
 }
 .seriesProcessor {
+  height: 23px;
+  width: 25.2px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -252,13 +270,18 @@
 }
 .dataMapping,
 .fillProperty {
+  height: 18px;
+  width: 14px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
   padding: var(--padding-9xs) 0 0;
+  box-sizing: border-box;
 }
 .fillProperty {
+  height: 33px;
+  width: 70px;
   border-radius: var(--br-9xs);
   background-color: var(--purple-purple-pale);
   flex-direction: row;
@@ -312,34 +335,35 @@
   display: flex;
   flex-direction: row;
   align-items: flex-start;
+  justify-content: flex-start;
 }
 .frameParent {
+  height: 101px;
   width: 235px;
   margin: 0 !important;
   bottom: -87px;
   left: -90px;
-  justify-content: center;
-  padding: var(--padding-5xs) var(--padding-xl) var(--padding-52xl)
-    var(--padding-16xl);
+  padding: var(--padding-5xs) var(--padding-79xl) var(--padding-52xl)
+    var(--padding-94xl);
   box-sizing: border-box;
 }
 .sequenceController {
   top: 0;
   left: 93px;
-  justify-content: flex-start;
+  width: 70px;
+  height: 33px;
 }
-.frameChild1,
-.frameChild2,
-.labelLinker,
-.lineDiv {
-  align-self: stretch;
+.labelLinker {
+  width: 235px;
   height: 34px;
   position: relative;
 }
 .frameChild1,
 .frameChild2,
 .lineDiv {
+  width: 236px;
   height: 1px;
+  position: relative;
   border-top: 1px solid var(--greyscale-grey-pale);
   box-sizing: border-box;
   opacity: 0.2;
@@ -353,24 +377,26 @@
   justify-content: flex-start;
 }
 .labelLinkerParent {
-  flex: 1;
+  height: 115px;
+  width: 235px;
   flex-direction: column;
   gap: var(--gap-7xl);
-  min-width: 153px;
   font-size: var(--font-size-xs);
   color: var(--white);
 }
 .logicBranch,
 .outputCollector {
-  align-self: stretch;
+  width: 265px;
 }
 .outputCollector {
+  height: 120px;
   flex-direction: row;
   gap: var(--gap-xs);
   font-size: var(--font-size-3xs);
   color: var(--greyscale-grey);
 }
 .logicBranch {
+  height: 152px;
   flex-direction: column;
   gap: var(--gap-sm);
 }
@@ -379,56 +405,63 @@
 .jun,
 .mar,
 .may {
+  height: 12px;
+  width: 21px;
   position: relative;
   line-height: 120%;
   display: inline-block;
   font-weight: 700;
-  min-width: 21px;
   z-index: 1;
 }
 .apr,
 .jul,
 .jun,
 .may {
-  min-width: 18px;
+  width: 18px;
 }
 .jul,
 .jun,
 .may {
-  min-width: 22px;
+  width: 22px;
 }
 .jul,
 .jun {
-  min-width: 18px;
+  width: 18px;
 }
 .jul {
-  min-width: 15px;
+  width: 15px;
 }
 .bufferManager,
 .dataStack {
+  height: 12px;
   display: flex;
   flex-direction: row;
   align-items: flex-start;
 }
 .bufferManager {
-  flex: 1;
-  justify-content: space-between;
-  gap: var(--gap-xl);
+  width: 229px;
+  justify-content: flex-start;
+  gap: var(--gap-14xl-8);
 }
 .dataStack {
-  width: 241px;
+  width: 235px;
   justify-content: flex-end;
-  padding: 0 var(--padding-7xs);
+  padding: 0 var(--padding-7xs) 0 0;
   box-sizing: border-box;
   font-size: var(--font-size-3xs);
   color: var(--greyscale-grey);
 }
+.illustrations1,
+.illustrationsWrapper {
+  height: 204px;
+  display: flex;
+  box-sizing: border-box;
+}
 .illustrations1 {
-  flex: 1;
+  width: 300px;
   border-radius: var(--br-7xs);
   background-color: var(--white);
   box-shadow: var(--card-shadow-1);
-  display: flex;
   flex-direction: column;
   align-items: flex-end;
   justify-content: flex-start;
@@ -438,30 +471,28 @@
   z-index: 2;
 }
 .illustrationsWrapper {
-  width: 326px;
-  display: flex;
+  width: 313px;
   flex-direction: row;
   align-items: flex-start;
   justify-content: flex-end;
-  padding: 0 var(--padding-smi);
-  box-sizing: border-box;
-  max-width: 100%;
+  padding: 0 var(--padding-smi) 0 0;
 }
 .rectangleDiv {
   width: 180px;
-  height: 176px;
   position: relative;
   border-radius: var(--br-7xs);
   background-color: var(--white);
   box-shadow: var(--card-shadow-1);
+  height: 176px;
   display: none;
 }
 .salesStats {
+  width: 76px;
+  height: 18px;
   position: relative;
   line-height: 18px;
   display: inline-block;
   font-weight: 700;
-  min-width: 77px;
   z-index: 1;
 }
 .redBlackTreeChild {
@@ -470,28 +501,33 @@
   position: relative;
   z-index: 1;
 }
-.redBlackTree {
-  align-self: stretch;
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  justify-content: flex-end;
-}
 .binarySearchTree,
-.dataTree {
+.dataTree,
+.redBlackTree {
   display: flex;
   align-items: flex-start;
   justify-content: flex-start;
 }
+.redBlackTree {
+  width: 111px;
+  height: 67px;
+  flex-direction: row;
+  padding: 0 0 0 var(--padding-25xl);
+  box-sizing: border-box;
+}
+.binarySearchTree,
+.dataTree {
+  height: 95px;
+}
 .binarySearchTree {
-  flex: 1;
+  width: 111px;
   flex-direction: column;
   gap: var(--gap-3xs);
 }
 .dataTree {
-  width: 115px;
+  width: 113px;
   flex-direction: row;
-  padding: 0 var(--padding-11xs);
+  padding: 0 0 0 var(--padding-11xs);
   box-sizing: border-box;
 }
 .frameChild3,
@@ -515,7 +551,7 @@
 }
 .frameChild5,
 .frameChild6 {
-  align-self: stretch;
+  width: 122px;
   height: 6px;
   position: relative;
   border-radius: var(--br-3xs);
@@ -524,17 +560,16 @@
 }
 .linkedList,
 .rectangleGroup {
+  height: 20px;
+  width: 122px;
   display: flex;
+  flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
-}
-.rectangleGroup {
-  flex: 1;
-  flex-direction: column;
   gap: var(--gap-5xs);
 }
 .linkedList {
-  align-self: stretch;
+  width: 152px;
   flex-direction: row;
   gap: var(--gap-3xs);
 }
@@ -546,6 +581,7 @@
 }
 .illustrations2 {
   width: 180px;
+  height: 176px;
   margin: 0 !important;
   position: absolute;
   top: 27.5px;
@@ -560,9 +596,9 @@
   z-index: 2;
 }
 .illustrationsChild1 {
-  height: 76px;
   width: 203px;
   position: relative;
+  height: 76px;
   display: none;
 }
 .slack1Icon {
@@ -575,19 +611,23 @@
 }
 .subscribeLabel,
 .totalSubscribe {
+  width: 106px;
+  height: 20px;
   position: relative;
   line-height: 20px;
   display: inline-block;
   font-weight: 700;
-  min-width: 106px;
   z-index: 1;
 }
 .subscribeLabel {
+  width: 61px;
+  height: 24px;
   font-size: var(--font-size-lg);
   line-height: 24px;
-  min-width: 61px;
 }
 .quickSort {
+  height: 45px;
+  width: 106px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -596,12 +636,14 @@
 }
 .binaryHeap,
 .illustrations3 {
+  height: 76px;
   display: flex;
   flex-direction: row;
   align-items: flex-start;
+  box-sizing: border-box;
 }
 .illustrations3 {
-  flex: 1;
+  width: 203px;
   border-radius: var(--br-7xs);
   background-color: var(--white);
   box-shadow: var(--card-shadow-1);
@@ -611,33 +653,34 @@
   z-index: 2;
 }
 .binaryHeap {
-  width: 269px;
+  width: 236px;
   justify-content: flex-end;
-  padding: 0 var(--padding-14xl);
-  box-sizing: border-box;
+  padding: 0 var(--padding-14xl) 0 0;
 }
 .illustrationsChild2 {
   width: 127px;
-  height: 100px;
   position: relative;
   border-radius: var(--br-7xs);
   background-color: var(--white);
   box-shadow: var(--card-shadow-1);
+  height: 100px;
   display: none;
 }
 .dailyVisitor,
 .visitorLabel {
+  width: 82px;
+  height: 20px;
   position: relative;
   line-height: 20px;
   display: inline-block;
   font-weight: 700;
-  min-width: 83px;
   z-index: 1;
 }
 .visitorLabel {
+  width: 74px;
+  height: 40px;
   font-size: var(--font-size-11xl);
   line-height: 40px;
-  min-width: 74px;
 }
 .illustrations4,
 .illustrationsChild3 {
@@ -646,76 +689,84 @@
   box-shadow: var(--card-shadow-1);
 }
 .illustrations4 {
+  height: 100px;
   width: 127px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
-  padding: var(--padding-base) var(--padding-mini) var(--padding-lgi);
+  padding: var(--padding-base) var(--padding-base) var(--padding-lgi);
   box-sizing: border-box;
   gap: var(--gap-8xs);
-  min-width: 127px;
   z-index: 2;
 }
 .illustrationsChild3 {
   width: 236px;
-  height: 152px;
   position: relative;
+  height: 152px;
   display: none;
 }
 .daily,
 .revenueGrowth {
+  height: 18px;
+  width: 112px;
   position: relative;
   line-height: 18px;
   display: inline-block;
   font-weight: 700;
-  min-width: 112px;
   z-index: 1;
 }
 .daily {
+  width: 27px;
+  height: 13px;
   line-height: 120%;
-  min-width: 27px;
 }
+.bucketSortWithCounting,
 .dataProcessor {
   display: flex;
-  flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
+}
+.dataProcessor {
+  height: 15px;
+  width: 27px;
+  flex-direction: column;
   padding: var(--padding-11xs) 0 0;
+  box-sizing: border-box;
   font-size: var(--font-size-2xs);
   color: var(--greyscale-grey);
 }
 .bucketSortWithCounting {
-  align-self: stretch;
-  display: flex;
+  width: 200px;
+  height: 18px;
   flex-direction: row;
-  align-items: flex-start;
-  justify-content: space-between;
-  gap: var(--gap-xl);
+  gap: var(--gap-42xl);
 }
 .outputAggregatorChild {
   height: 80px;
-  flex: 1;
+  width: 188px;
   position: relative;
-  max-width: 100%;
-  overflow: hidden;
   z-index: 1;
 }
 .outputAggregator {
-  align-self: stretch;
+  width: 192px;
+  height: 80px;
   display: flex;
   flex-direction: row;
   align-items: flex-start;
   justify-content: flex-end;
-  padding: 0 var(--padding-9xs) 0 var(--padding-5xs);
+  padding: 0 var(--padding-9xs) 0 0;
+  box-sizing: border-box;
 }
 .heapSort,
 .illustrations5 {
+  width: 236px;
   display: flex;
   flex-direction: column;
+  box-sizing: border-box;
 }
 .illustrations5 {
-  align-self: stretch;
+  height: 152px;
   border-radius: var(--br-7xs);
   background-color: var(--white);
   box-shadow: var(--card-shadow-1);
@@ -727,36 +778,30 @@
   z-index: 2;
 }
 .heapSort {
-  flex: 1;
+  height: 154px;
   align-items: flex-start;
   justify-content: flex-end;
   padding: 0 0 var(--padding-11xs);
-  box-sizing: border-box;
-  min-width: 153px;
 }
 .patternParent,
 .priorityQueue,
 .selectionSort {
+  width: 395px;
+  height: 154px;
   display: flex;
+  flex-direction: row;
   align-items: flex-end;
   justify-content: flex-start;
-}
-.selectionSort {
-  align-self: stretch;
-  flex-direction: row;
   gap: var(--gap-13xl);
 }
 .patternParent,
 .priorityQueue {
+  height: 262px;
   flex-direction: column;
-  max-width: 100%;
-}
-.priorityQueue {
-  width: 395px;
-  gap: var(--gap-13xl);
 }
 .patternParent {
-  align-self: stretch;
+  width: 556px;
+  height: 540px;
   padding: 0 var(--padding-15xl) var(--padding-23xl-5);
   box-sizing: border-box;
   position: relative;
@@ -765,25 +810,4 @@
   font-size: var(--font-size-sm);
   color: var(--greyscale-dark-grey);
   font-family: var(--font-chivo);
-}
-@media screen and (max-width: 800px) {
-  .visitorLabel {
-    font-size: var(--font-size-5xl);
-    line-height: 32px;
-  }
-}
-@media screen and (max-width: 450px) {
-  .outputCollector {
-    flex-wrap: wrap;
-  }
-  .visitorLabel {
-    font-size: var(--font-size-lg);
-    line-height: 24px;
-  }
-  .illustrations4 {
-    flex: 1;
-  }
-  .selectionSort {
-    flex-wrap: wrap;
-  }
 }

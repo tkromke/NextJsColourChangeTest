@@ -1,5 +1,4 @@
 import type { NextPage } from "next";
-import { Button } from "@mui/material";
 import styles from "./main-content.module.css";
 
 const MainContent: NextPage = () => {
@@ -18,23 +17,9 @@ const MainContent: NextPage = () => {
       <div className={styles.loginWrapper}>
         <i className={styles.login}>Login</i>
       </div>
-      <Button
-        className={styles.button}
-        disableElevation={true}
-        variant="contained"
-        sx={{
-          textTransform: "none",
-          color: "#fff",
-          fontSize: "16",
-          background: "#9d9d9d",
-          borderRadius: "6px",
-          "&:hover": { background: "#9d9d9d" },
-          width: 122,
-          height: 50,
-        }}
-      >
-        Sign Up
-      </Button>
+      <button className={styles.button}>
+        <i className={styles.signUp}>Sign Up</i>
+      </button>
     </header>
   );
 };
