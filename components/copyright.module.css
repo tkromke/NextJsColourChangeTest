@@ -1,0 +1,77 @@
+.bg,
+.separator {
+  position: relative;
+  max-width: 100%;
+}
+.bg {
+  width: 1440px;
+  height: 68px;
+  background-color: var(--greyscale-dark-grey);
+  display: none;
+}
+.separator {
+  width: 1113px;
+  height: 1px;
+  border-top: 1px solid var(--white);
+  box-sizing: border-box;
+  opacity: 0.2;
+  z-index: 2;
+}
+.growthlyAllRight {
+  position: relative;
+  line-height: 20px;
+  font-weight: 700;
+  z-index: 1;
+}
+.akarIconslinkedinFill,
+.akarIconstwitterFill,
+.bxbxlInstagramAltIcon {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-height: 24px;
+  z-index: 1;
+}
+.bxbxlInstagramAltParent {
+  width: 136px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-13xl);
+}
+.copyright,
+.growthlyAllRightReservedParent {
+  width: 1112px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+  max-width: 100%;
+}
+.copyright {
+  position: absolute;
+  top: 1684px;
+  left: 0;
+  background-color: var(--greyscale-dark-grey);
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0 var(--padding-xl) var(--padding-5xl);
+  box-sizing: border-box;
+  gap: var(--gap-lgi);
+  z-index: 1;
+  text-align: left;
+  font-size: var(--font-size-sm);
+  color: var(--color-silver-100);
+  font-family: var(--font-chivo);
+}
+@media screen and (max-width: 450px) {
+  .growthlyAllRightReservedParent {
+    flex-wrap: wrap;
+  }
+}

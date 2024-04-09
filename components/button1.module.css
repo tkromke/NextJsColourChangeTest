@@ -1,0 +1,53 @@
+.yourBusinessEmail {
+  align-self: stretch;
+  position: relative;
+  line-height: 26px;
+  font-weight: 700;
+}
+.yourBusinessEmailWrapper {
+  width: 156px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-xs) 0 0;
+  box-sizing: border-box;
+}
+.button1 {
+  height: 50px;
+  width: 150px;
+  z-index: 1;
+}
+.box,
+.button {
+  border-radius: var(--br-7xs);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.box {
+  flex: 1;
+  background-color: var(--white);
+  border: 1px solid var(--greyscale-grey-pale);
+  box-sizing: border-box;
+  justify-content: space-between;
+  padding: var(--padding-5xs) var(--padding-4xs) var(--padding-5xs)
+    var(--padding-4xl);
+  gap: var(--gap-xl);
+}
+.button {
+  align-self: stretch;
+  background-color: var(--color-gray-200);
+  justify-content: flex-start;
+  z-index: 1;
+  text-align: center;
+  font-size: var(--font-size-base);
+  color: var(--greyscale-grey-pale);
+  font-family: var(--font-chivo);
+}
+@media screen and (max-width: 450px) {
+  .box {
+    flex-wrap: wrap;
+  }
+}

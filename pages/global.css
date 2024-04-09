@@ -1,0 +1,118 @@
+@import url("https://fonts.googleapis.com/css2?family=Chivo:ital,wght@1,400;1,700&display=swap");
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons");
+
+body {
+  margin: 0;
+  line-height: normal;
+}
+:root {
+  /* fonts */
+  --font-chivo: Chivo;
+
+  /* font sizes */
+  --font-size-base: 16px;
+  --font-size-lg: 18px;
+  --font-size-25xl: 44px;
+  --font-size-7xl: 26px;
+  --font-size-16xl: 35px;
+  --font-size-sm: 14px;
+  --font-size-2xs: 11px;
+  --font-size-11xl: 30px;
+  --font-size-5xl: 24px;
+  --font-size-3xs: 10px;
+  --font-size-5xs: 8px;
+  --font-size-xs: 12px;
+
+  /* Colors */
+  --white: #fff;
+  --greyscale-grey-pale: #b4b6c4;
+  --color-silver-100: rgba(180, 182, 196, 0.8);
+  --color-midnightblue-100: #36268c;
+  --greyscale-dark-grey: #060c3b;
+  --purple-purple-pale: #9374ff;
+  --purple-purple: #6241d4;
+  --color-gray-100: rgba(255, 255, 255, 0.8);
+  --color-gray-200: rgba(255, 255, 255, 0);
+  --greyscale-grey: #5d6180;
+  --color-darkslategray: #063b1f;
+
+  /* Gaps */
+  --gap-xl: 20px;
+  --gap-62xl: 81px;
+  --gap-24xl: 43px;
+  --gap-smi-5: 12.5px;
+  --gap-smi-4: 12.4px;
+  --gap-base: 16px;
+  --gap-xs: 12px;
+  --gap-5xl: 24px;
+  --gap-2xs: 11px;
+  --gap-3xs-1: 9.1px;
+  --gap-45xl: 64px;
+  --gap-13xl: 32px;
+  --gap-6xl-8: 25.8px;
+  --gap-32xl-4: 51.4px;
+  --gap-lgi: 19px;
+  --gap-12xl-5: 31.5px;
+  --gap-3xl: 22px;
+  --gap-8xs: 5px;
+  --gap-12xs: 1px;
+  --gap-4xl: 23px;
+  --gap-3xs: 10px;
+  --gap-5xs: 8px;
+  --gap-sm: 14px;
+  --gap-7xl: 26px;
+  --gap-mini-8: 14.8px;
+  --gap-mini: 15px;
+  --gap-mini-4: 14.4px;
+  --gap-5xs-9: 7.9px;
+  --gap-21xl: 40px;
+
+  /* Paddings */
+  --padding-xl: 20px;
+  --padding-sm: 14px;
+  --padding-7xs: 6px;
+  --padding-10xs-1: 2.1px;
+  --padding-10xs: 3px;
+  --padding-12xs: 1px;
+  --padding-11xs: 2px;
+  --padding-108xl-7: 127.7px;
+  --padding-145xl: 164px;
+  --padding-63xl: 82px;
+  --padding-45xl: 64px;
+  --padding-6xs: 7px;
+  --padding-36xl: 55px;
+  --padding-8xl: 27px;
+  --padding-4xl-3: 23.3px;
+  --padding-xs-7: 11.7px;
+  --padding-5xs: 8px;
+  --padding-4xs: 9px;
+  --padding-4xl: 23px;
+  --padding-xs: 12px;
+  --padding-5xl: 24px;
+  --padding-15xl: 34px;
+  --padding-23xl-5: 42.5px;
+  --padding-base: 16px;
+  --padding-9xs: 4px;
+  --padding-mini: 15px;
+  --padding-lgi: 19px;
+  --padding-14xl: 33px;
+  --padding-3xl: 22px;
+  --padding-smi: 13px;
+  --padding-52xl: 71px;
+  --padding-16xl: 35px;
+  --padding-8xs: 5px;
+  --padding-12xs-5: 0.5px;
+  --padding-xl-3: 20.3px;
+  --padding-base-9: 15.9px;
+  --padding-61xl: 80px;
+  --padding-lgi-8: 19.8px;
+  --padding-56xl: 75px;
+
+  /* Border radiuses */
+  --br-7xs: 6px;
+  --br-3xs: 10px;
+  --br-9xs: 4px;
+
+  /* Effects */
+  --card-shadow-1: 0px 8px 40px -2px rgba(6, 12, 59, 0.08);
+}

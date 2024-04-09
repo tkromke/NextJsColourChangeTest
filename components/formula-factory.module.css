@@ -1,0 +1,333 @@
+.bg {
+  width: 1440px;
+  height: 352px;
+  position: relative;
+  background-color: var(--greyscale-dark-grey);
+  display: none;
+  max-width: 100%;
+}
+.readyToGet,
+.theFastestAnd {
+  position: relative;
+  font-weight: 700;
+  z-index: 2;
+}
+.readyToGet {
+  margin: 0;
+  align-self: stretch;
+  font-size: inherit;
+  line-height: 54px;
+  font-style: italic;
+  font-family: inherit;
+}
+.theFastestAnd {
+  width: 480px;
+  font-size: var(--font-size-lg);
+  line-height: 28px;
+  display: inline-block;
+  color: var(--color-silver-100);
+  max-width: 100%;
+}
+.equationEditor,
+.readyToGetStartedParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.readyToGetStartedParent {
+  align-self: stretch;
+  gap: var(--gap-base);
+}
+.equationEditor {
+  width: 498px;
+  gap: var(--gap-13xl);
+  min-width: 498px;
+}
+.patternChild,
+.patternItem {
+  position: relative;
+  background-color: var(--purple-purple-pale);
+  display: none;
+}
+.patternChild {
+  height: 38px;
+  width: 39.8px;
+  transform: rotate(180deg);
+  z-index: 0;
+}
+.patternItem {
+  height: 60.3px;
+  width: 63.2px;
+  z-index: 1;
+}
+.patternElement,
+.patternElement1 {
+  position: absolute;
+  margin: 0 !important;
+  background-color: var(--color-midnightblue-100);
+  transform-origin: 0 0;
+}
+.patternElement {
+  height: 53.9px;
+  width: 53.9px;
+  top: 0;
+  left: 53.9px;
+  transform: rotate(90deg);
+}
+.patternElement1 {
+  height: 35.1px;
+  width: 35.1px;
+  right: -35.1px;
+  bottom: 69.2px;
+  transform: rotate(180deg);
+}
+.patternElement2,
+.patternElement3,
+.patternElement4 {
+  position: relative;
+  background-color: var(--color-midnightblue-100);
+}
+.patternElement2 {
+  height: 112.4px;
+  width: 112.4px;
+  transform: rotate(90deg);
+}
+.patternElement3,
+.patternElement4 {
+  transform: rotate(180deg);
+}
+.patternElement3 {
+  height: 23.4px;
+  width: 23.4px;
+}
+.patternElement4 {
+  align-self: stretch;
+  width: 49.2px;
+}
+.patternElementGroup {
+  align-self: stretch;
+  height: 49.2px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-shrink: 0;
+  debug_commit: afebfb9;
+}
+.patternElement5 {
+  width: 63.2px;
+  flex: 1;
+  position: relative;
+  background-color: var(--color-midnightblue-100);
+  transform: rotate(180deg);
+  flex-shrink: 0;
+  debug_commit: afebfb9;
+}
+.frameGroup,
+.patternElementParent {
+  display: flex;
+  align-items: flex-start;
+}
+.frameGroup {
+  height: 112.4px;
+  width: 112.4px;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.patternElementParent {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.patternElement6 {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  background-color: var(--color-midnightblue-100);
+  transform: rotate(90deg);
+}
+.patternElementWrapper {
+  height: 74.9px;
+  width: 86.6px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-xs-7) 0 0;
+  box-sizing: border-box;
+}
+.patternElement7 {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  background-color: var(--color-midnightblue-100);
+  transform: rotate(90deg);
+  flex-shrink: 0;
+  debug_commit: afebfb9;
+}
+.patternElementContainer {
+  align-self: stretch;
+  height: 93.7px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 var(--padding-4xl-3) 0 0;
+  box-sizing: border-box;
+}
+.patternElement8 {
+  width: 23.4px;
+  height: 23.4px;
+  position: relative;
+  background-color: var(--color-midnightblue-100);
+  transform: rotate(180deg);
+  flex-shrink: 0;
+  debug_commit: afebfb9;
+}
+.finiteDifferenceFinder {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-32xl-4);
+  min-width: 76px;
+}
+.patternElement9 {
+  height: 84.3px;
+  width: 84.3px;
+  position: relative;
+  background-color: var(--color-midnightblue-100);
+  transform: rotate(180deg);
+}
+.frameContainer {
+  width: 339.5px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-6xl-8);
+  max-width: 100%;
+}
+.frameParent,
+.pattern,
+.patternWrapper {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.frameParent {
+  width: 367.6px;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.pattern,
+.patternWrapper {
+  justify-content: flex-end;
+  box-sizing: border-box;
+}
+.pattern {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 var(--padding-36xl);
+  position: relative;
+  opacity: 0.35;
+  z-index: 2;
+}
+.patternWrapper {
+  width: 529.1px;
+  flex-direction: column;
+  padding: 0 0 var(--padding-6xs);
+  min-width: 529.0999999999999px;
+}
+.equationEditorParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-between;
+  max-width: 100%;
+  gap: var(--gap-xl);
+}
+.formulaFactory,
+.separto {
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.separto {
+  width: 1113px;
+  height: 1px;
+  position: relative;
+  border-top: 1px solid var(--white);
+  opacity: 0.2;
+  z-index: 2;
+}
+.formulaFactory {
+  align-self: stretch;
+  background-color: var(--greyscale-dark-grey);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-108xl-7) 0 var(--padding-145xl);
+  gap: var(--gap-45xl);
+  z-index: 1;
+  text-align: left;
+  font-size: var(--font-size-25xl);
+  color: var(--white);
+  font-family: var(--font-chivo);
+}
+@media screen and (max-width: 1350px) {
+  .equationEditor,
+  .patternWrapper {
+    flex: 1;
+  }
+  .equationEditorParent {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 1125px) {
+  .equationEditor,
+  .patternWrapper {
+    min-width: 100%;
+  }
+}
+@media screen and (max-width: 800px) {
+  .readyToGet {
+    font-size: var(--font-size-16xl);
+    line-height: 43px;
+  }
+  .equationEditor {
+    gap: 16px 32px;
+  }
+  .formulaFactory,
+  .pattern {
+    padding-left: var(--padding-8xl);
+    padding-right: var(--padding-8xl);
+    box-sizing: border-box;
+  }
+  .formulaFactory {
+    gap: 32px 64px;
+    padding-left: var(--padding-63xl);
+    padding-right: var(--padding-45xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .readyToGet {
+    font-size: var(--font-size-7xl);
+    line-height: 32px;
+  }
+  .frameContainer,
+  .patternElementParent {
+    flex-wrap: wrap;
+  }
+  .formulaFactory {
+    gap: 16px 64px;
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}

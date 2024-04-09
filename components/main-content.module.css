@@ -1,0 +1,120 @@
+.mainContentChild {
+  height: 98px;
+  width: 1440px;
+  position: relative;
+  background-color: var(--white);
+  display: none;
+  max-width: 100%;
+}
+.logoIcon {
+  height: 50px;
+  width: 50px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-height: 50px;
+  z-index: 1;
+}
+.pricing {
+  display: inline-block;
+  min-width: 56px;
+}
+.about,
+.contact,
+.pricing,
+.resourcesCenter {
+  position: relative;
+  line-height: 20px;
+  font-weight: 700;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.resourcesCenter {
+  color: var(--color-darkslategray);
+  white-space: nowrap;
+}
+.about,
+.contact {
+  display: inline-block;
+  min-width: 47px;
+}
+.contact {
+  min-width: 62px;
+}
+.mainContentInner,
+.pricingParent {
+  margin: 0;
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.pricingParent {
+  width: 422px;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--greyscale-dark-grey);
+  font-family: var(--font-chivo);
+}
+.mainContentInner {
+  width: 778px;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-mini) 0 0;
+  box-sizing: border-box;
+}
+.login {
+  position: relative;
+  line-height: 20px;
+  display: inline-block;
+  font-weight: 700;
+  min-width: 42px;
+  z-index: 1;
+}
+.loginWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-mini) 0 0;
+}
+.button {
+  height: 50px;
+  width: 122px;
+  z-index: 1;
+}
+.mainContent {
+  position: sticky;
+  top: 0;
+  left: 0;
+  background-color: var(--white);
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: var(--padding-5xl) var(--padding-xl);
+  box-sizing: border-box;
+  gap: var(--gap-21xl);
+  z-index: 99;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--greyscale-dark-grey);
+  font-family: var(--font-chivo);
+}
+@media screen and (max-width: 1125px) {
+  .mainContentInner {
+    display: none;
+  }
+  .mainContent {
+    width: 662px;
+  }
+}
+@media screen and (max-width: 800px) {
+  .mainContent {
+    gap: 40px 20px;
+  }
+}
