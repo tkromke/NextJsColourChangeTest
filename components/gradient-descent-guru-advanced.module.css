@@ -7,30 +7,34 @@
   z-index: 1;
 }
 .dataAggregator {
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  justify-content: flex-start;
-  padding: 0 var(--padding-11xs) 0 var(--padding-10xs-1);
-}
-.theFastestAnd {
-  flex: 1;
-  position: relative;
-  line-height: 26px;
-  display: inline-block;
-  font-weight: 700;
-  max-width: 100%;
-  z-index: 1;
-}
-.listComponent {
-  align-self: stretch;
+  width: 52.1px;
+  height: 50px;
   display: flex;
   flex-direction: row;
   align-items: flex-start;
   justify-content: flex-start;
   padding: 0 0 0 var(--padding-10xs-1);
   box-sizing: border-box;
-  max-width: 100%;
+}
+.theFastestAnd {
+  height: 78px;
+  width: 344px;
+  position: relative;
+  line-height: 26px;
+  display: inline-block;
+  font-weight: 700;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.listComponent {
+  width: 346.1px;
+  height: 78px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 0 var(--padding-10xs-1);
+  box-sizing: border-box;
 }
 .iconSystem {
   width: 24px;
@@ -41,25 +45,32 @@
   z-index: 1;
 }
 .decisionTree {
+  height: 25px;
+  width: 24px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
   padding: var(--padding-12xs) 0 0;
+  box-sizing: border-box;
 }
 .hellodhuhacreativecom {
+  height: 26px;
+  width: 202px;
   position: relative;
   line-height: 26px;
+  display: inline-block;
   font-weight: 700;
-  white-space: nowrap;
   z-index: 1;
 }
 .outputDistributor {
+  width: 236.1px;
+  height: 26px;
   display: flex;
   flex-direction: row;
   align-items: flex-start;
   justify-content: flex-start;
-  gap: var(--gap-3xs-1);
+  gap: var(--gap-2xs-1);
 }
 .iconslack {
   width: 20px;
@@ -70,21 +81,29 @@
   z-index: 1;
 }
 .functionCaller {
+  height: 23px;
+  width: 20px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
   padding: var(--padding-10xs) 0 0;
+  box-sizing: border-box;
 }
 .joinOurSlack {
+  height: 26px;
+  width: 196px;
   position: relative;
   line-height: 26px;
+  display: inline-block;
   font-weight: 700;
   z-index: 1;
 }
 .sliderControl {
+  height: 26px;
+  width: 228px;
   flex-direction: row;
-  gap: var(--gap-2xs);
+  gap: var(--gap-xs);
 }
 .dividerElement,
 .sliderControl,
@@ -94,250 +113,225 @@
   justify-content: flex-start;
 }
 .variableHolder {
+  width: 230.1px;
+  height: 26px;
   flex-direction: row;
-  padding: 0 var(--padding-7xs) 0 var(--padding-10xs-1);
+  padding: 0 0 0 var(--padding-10xs-1);
+  box-sizing: border-box;
 }
 .dividerElement {
+  width: 236.1px;
+  height: 64px;
   flex-direction: column;
   gap: var(--gap-xs);
 }
 .listComponentParent {
-  align-self: stretch;
+  height: 166px;
   justify-content: flex-start;
   gap: var(--gap-5xl);
 }
 .dataAggregatorParent,
 .frameWrapper,
 .listComponentParent {
+  width: 346.1px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  max-width: 100%;
 }
 .dataAggregatorParent {
-  align-self: stretch;
+  height: 232px;
   justify-content: flex-start;
   gap: var(--gap-base);
 }
 .frameWrapper {
-  width: 346.1px;
+  height: 246px;
   justify-content: flex-end;
   padding: 0 0 var(--padding-sm);
   box-sizing: border-box;
-  min-width: 346.1px;
 }
 .benefits,
 .features,
 .landingPages,
 .pricing,
 .product {
+  width: 62px;
+  height: 20px;
   position: relative;
+  line-height: 20px;
   display: inline-block;
   font-weight: 700;
   z-index: 1;
-}
-.product {
-  line-height: 20px;
-  min-width: 63px;
 }
 .benefits,
 .features,
 .landingPages,
 .pricing {
+  width: 111px;
+  height: 26px;
   line-height: 26px;
-}
-.landingPages {
-  min-width: 111px;
-  white-space: nowrap;
 }
 .benefits,
 .features,
 .pricing {
-  min-width: 56px;
+  width: 55px;
 }
 .benefits,
 .features {
-  min-width: 65px;
+  width: 64px;
 }
 .features {
-  min-width: 71px;
+  width: 70px;
 }
 .landingPagesParent,
 .tableComponent {
+  width: 111px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
 }
 .landingPagesParent {
+  height: 140px;
   gap: var(--gap-xs);
   color: var(--greyscale-grey-pale);
 }
 .tableComponent {
+  height: 176px;
   gap: var(--gap-base);
 }
-.about,
 .company {
+  width: 72px;
+  height: 20px;
   position: relative;
+  line-height: 20px;
+  display: inline-block;
+  font-weight: 700;
+  color: var(--white);
+  z-index: 1;
+}
+.about,
+.contact,
+.partners,
+.privacyPolicy,
+.termsConditions {
+  width: 46px;
+  height: 26px;
+  position: relative;
+  line-height: 26px;
   display: inline-block;
   font-weight: 700;
   z-index: 1;
-}
-.company {
-  line-height: 20px;
-  color: var(--white);
-  min-width: 72px;
-}
-.about {
-  line-height: 26px;
-  min-width: 47px;
-}
-.privacyPolicy {
-  display: inline-block;
-  min-width: 109px;
 }
 .contact,
 .partners,
 .privacyPolicy,
 .termsConditions {
-  position: relative;
-  line-height: 26px;
-  font-weight: 700;
-  z-index: 1;
+  width: 108px;
 }
+.contact,
+.partners,
 .termsConditions {
-  white-space: nowrap;
+  width: 149px;
 }
 .contact,
 .partners {
-  display: inline-block;
-  min-width: 70px;
+  width: 69px;
 }
 .contact {
-  min-width: 62px;
+  width: 61px;
 }
 .geometricShapes {
+  height: 212px;
+  width: 149px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
   gap: var(--gap-smi-4);
-  min-width: 149px;
 }
-.resources {
+.blog,
+.guidesAndResources,
+.resources,
+.support,
+.tools {
   position: relative;
-  line-height: 20px;
   display: inline-block;
   font-weight: 700;
-  color: var(--white);
-  min-width: 84px;
   z-index: 1;
+}
+.resources {
+  width: 83px;
+  height: 20px;
+  line-height: 20px;
+  color: var(--white);
 }
 .blog,
 .guidesAndResources,
 .support,
 .tools {
-  position: relative;
+  width: 169px;
+  height: 26px;
   line-height: 26px;
-  font-weight: 700;
-  z-index: 1;
-}
-.guidesAndResources {
-  white-space: nowrap;
 }
 .blog,
 .support,
 .tools {
-  display: inline-block;
-  min-width: 35px;
+  width: 34px;
 }
 .support,
 .tools {
-  min-width: 42px;
+  width: 42px;
 }
 .support {
-  min-width: 63px;
+  width: 63px;
 }
 .mapVisualization {
-  flex: 1;
+  height: 174px;
+  width: 169px;
   display: flex;
   flex-direction: column;
-  gap: var(--gap-smi-5);
-  min-width: 110px;
-}
-.graphVisualization,
-.mapVisualization,
-.treeStructure {
   align-items: flex-start;
   justify-content: flex-start;
+  gap: var(--gap-smi-5);
 }
 .graphVisualization {
-  flex: 1;
-  display: flex;
-  flex-direction: row;
+  height: 212px;
+  width: 361px;
+  align-items: flex-start;
   gap: var(--gap-24xl);
-  min-width: 235px;
-  max-width: 100%;
   color: var(--greyscale-grey-pale);
-}
-.treeStructure {
-  width: 553px;
-  gap: var(--gap-62xl);
-  min-width: 553px;
-  color: var(--white);
 }
 .frameParent,
 .gradientDescentGuruAdvanced,
+.graphVisualization,
 .treeStructure {
   display: flex;
   flex-direction: row;
-  max-width: 100%;
+  justify-content: flex-start;
+}
+.treeStructure {
+  height: 212px;
+  width: 553px;
+  align-items: flex-start;
+  gap: var(--gap-62xl);
+  color: var(--white);
+}
+.frameParent,
+.gradientDescentGuruAdvanced {
+  height: 246px;
 }
 .frameParent {
   width: 1116.1px;
   align-items: flex-end;
-  justify-content: space-between;
-  gap: var(--gap-xl);
+  gap: var(--gap-198xl);
 }
 .gradientDescentGuruAdvanced {
-  align-self: stretch;
+  width: 1278px;
   align-items: flex-start;
-  justify-content: center;
-  padding: 0 var(--padding-xl);
+  padding: 0 0 0 var(--padding-142xl-9);
   box-sizing: border-box;
   text-align: left;
   font-size: var(--font-size-base);
   color: var(--greyscale-grey-pale);
   font-family: var(--font-chivo);
-}
-@media screen and (max-width: 1125px) {
-  .frameWrapper,
-  .treeStructure {
-    flex: 1;
-  }
-  .frameParent {
-    flex-wrap: wrap;
-  }
-}
-@media screen and (max-width: 800px) {
-  .treeStructure {
-    flex-wrap: wrap;
-    gap: 81px 40px;
-    min-width: 100%;
-  }
-}
-@media screen and (max-width: 450px) {
-  .frameWrapper {
-    min-width: 100%;
-  }
-  .geometricShapes {
-    flex: 1;
-  }
-  .graphVisualization {
-    flex-wrap: wrap;
-    gap: 43px 21px;
-  }
-  .treeStructure {
-    gap: 81px 20px;
-  }
 }

@@ -15,7 +15,7 @@ const FormulaFactory: NextPage = () => {
               with our products
             </i>
           </div>
-          <Button1 propAlignSelf="unset" propWidth="480px" />
+          <Button1 />
         </div>
         <div className={styles.patternWrapper}>
           <div className={styles.pattern}>
